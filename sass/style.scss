@@ -1,0 +1,34 @@
+body {
+    
+    overflow: hidden;
+    
+}
+
+.renderer{
+    
+    position: fixed;
+    top: 0;
+    left: 0;
+    
+    &_css {
+        
+        div {
+            //perspective: 1000px;
+        }
+        
+        & div > * {
+            
+            position: absolute;
+            overflow: hidden;
+            
+        }
+        
+        iframe{
+            width: 100%;
+            height: 100%;
+            border: none;
+        }
+        
+    }
+    
+}
